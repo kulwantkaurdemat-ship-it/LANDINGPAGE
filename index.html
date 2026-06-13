@@ -88,8 +88,21 @@ h1{
 
 <div class="text">💸 0 Investment</div>
 
-<a href="https://wa.me/918054014136?text=Yes%20I%20need%20without%20investment%20opportunity"
-class="whatsapp-btn">
+<a
+href="#"
+class="whatsapp-btn"
+
+onclick="
+fbq('track','Contact');
+fbq('trackCustom','WhatsAppClick');
+
+setTimeout(function(){
+window.location.href='https://wa.me/918054014136?text=Yes%20I%20need%20without%20investment%20opportunity';
+},500);
+
+return false;
+"
+>
 📱 Join On WhatsApp
 </a>
 
